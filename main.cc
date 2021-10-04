@@ -8,5 +8,6 @@ int main(int argc, char* argv[])
 
     // Initialize the log
     google::InitGoogleLogging(argv[0]);
+    CHECK_LE(5, 6);
     LOG(ERROR) << "Hello, World!";
 }

@@ -5,7 +5,7 @@
 ```
 
 ## Submodule information
-Yon need set option 
+You need to set the option to generate a static library
 (BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 ```sh
@@ -28,4 +28,6 @@ cd build
 cmake -DCMAKE_INSTALL_PREFIX=<PROJECT>/third-party/gflags/usr
 make
 make install
+
+git submodule foreach --recursive git pull
 ```

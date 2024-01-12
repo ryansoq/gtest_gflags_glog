@@ -45,7 +45,7 @@ You need to set the option to generate a static library
 (BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 ```sh
-export PROJECT=${HOME}/glog_gflags
+export PROJECT=${HOME}/gtest_gflags_glog
 
 cd ${PROJECT}/third-party
 git submodule add https://github.com/google/googletest.git

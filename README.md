@@ -71,7 +71,7 @@ cd build
 cmake -DCMAKE_INSTALL_PREFIX=${PROJECT}/third-party/glog/usr ../
 make && make install
 
-git submodule foreach --recursive git pull
 git submodule init
 git submodule update
+git submodule foreach --recursive git pull
 ```
